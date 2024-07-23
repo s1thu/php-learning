@@ -10,6 +10,7 @@
 <body>
 <form action="">
     <?php
+    echo $_COOKIE['name'] ?? "No name";
     $pictures =[
         'cat.jpeg' => 'Cat',
         'dog.jpeg' => 'Dog'
